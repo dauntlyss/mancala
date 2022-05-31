@@ -40,14 +40,14 @@ nav img {
 .nav-links ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 18px;
 }
 
 .nav-links ul li::after {
     content: '';
     width: 0%;
     height: 2px;
-    background: green;
+    background: yellowgreen;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -56,3 +56,42 @@ nav img {
 .nav-links ul li:hover::after {
     width: 100%;
 }
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 70px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color:#fff;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font: 25px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid rgb(181, 140, 87);
+    background: rgb(181, 140, 87);
+    transition: 1s;
+}
+
