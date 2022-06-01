@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mancala</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,15 +17,15 @@
 
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/logo.png" alt="Mancala Site Logo"></a>
+            <a href="index.html"><img src="https://i.ibb.co/6RtNQGc/logo.png" alt="Mancala Site Logo"></a>
 
             <div class="nav-links">
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">HISTORY</a></li>
-                    <li><a href="">VARIATIONS</a></li>
-                    <li><a href="">GAMEPLAY</a></li>
-                    <li><a href="">FAQS</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#history">HISTORY</a></li>
+                    <li><a href="#variations">VARIATIONS</a></li>
+                    <li><a href="#gameplay">GAMEPLAY</a></li>
+                    <li><a href="#strategies">STRATEGIES</a></li>
                 </ul>
             </div>
         </nav>
@@ -32,26 +34,33 @@
             <h1>Mancala </h1>
             <h2>An Ancient Board Game</h2>
             <p>"If you want to reap, first you must sow."</p>
-            <a href="#" class="hero-btn">Learn More</a>
+            <a href="#history" class="hero-btn">Learn More</a>
         </div>
     </section>
 
     <!-- --------History Section-------- -->
 
-    <section class="history">
+    <section class="history" id="history">
         <h1>History of Mancala</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quis ipsam, harum molestias corrupti magni nulla, quod nemo accusamus fuga quae consequatur maiores quia dignissimos, doloribus magnam temporibus cumque repudiandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore enim nobis at adipisci nesciunt. Natus atque obcaecati architecto aliquid, itaque sed et, nostrum, velit qui laboriosam ullam commodi voluptates id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nesciunt obcaecati eum voluptatibus autem atque repellendus incidunt, cupiditate voluptatem similique assumenda sit possimus necessitatibus rerum error. Error repellendus nobis doloremque? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias et eos reprehenderit voluptates aliquid molestiae porro, provident modi earum voluptas laborum est vero facilis repudiandae sunt sit iste praesentium ipsam!</p>
+        <div class="row">
+            <div class="history-col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quis ipsam, harum molestias corrupti magni nulla, quod nemo accusamus fuga quae consequatur maiores quia dignissimos, doloribus magnam temporibus cumque repudiandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore enim nobis at adipisci nesciunt. Natus atque obcaecati architecto aliquid, itaque sed et, nostrum, velit qui laboriosam ullam commodi voluptates id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nesciunt obcaecati eum voluptatibus autem atque repellendus incidunt, cupiditate voluptatem similique assumenda sit possimus necessitatibus rerum error. Error repellendus nobis doloremque? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias et eos reprehenderit voluptates aliquid molestiae porro, provident modi earum voluptas laborum est vero facilis repudiandae sunt sit iste praesentium ipsam!</p>
+            </div>
+            <div class="history-col">
+                <img src="https://i.ibb.co/2yG3hVp/Adobe-Stock-139495995.jpg" alt="Oware spiel">
+            </div>
+        </div>    
     </section>
 
     <!-- --------Variation Section-------- -->
 
-    <section class="variation">
+    <section class="variation" id="variations">
         <h1>Popular Variations of Mancala</h1>
         <p>Because of the game's ancient origins, there are hundreds of variations. Here are three popular variations from around the world. </p>
 
         <div class="row">
             <div class="variation-col">
-                <img src="images/kalah.jpeg" alt="Kalah board">
+                <img src="https://i.ibb.co/R4rK3cn/kalah.jpg" alt="Kalah board">
                 <div class="layer">
                     <h3>KALAH</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, minus! Ad reprehenderit assumenda ipsa tempora culpa distinctio mollitia laudantium aliquam sequi, earum, dolore quos modi fugit a odio delectus sint! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur dolore dolores neque vero odit debitis perspiciatis repudiandae temporibus amet laboriosam exercitationem nostrum dolor, nam deleniti harum saepe laborum nihil enim.</p>
@@ -59,7 +68,7 @@
                 
             </div>
             <div class="variation-col">
-                <img src="images/oware.jpeg" alt="Oware board">
+                <img src="https://i.ibb.co/1KGYYKP/oware.jpg" alt="Oware board">
                 <div class="layer">
                     <h3>OWARE</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, minus! Ad reprehenderit assumenda ipsa tempora culpa distinctio mollitia laudantium aliquam sequi, earum, dolore quos modi fugit a odio delectus sint! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur dolore dolores neque vero odit debitis perspiciatis repudiandae temporibus amet laboriosam exercitationem nostrum dolor, nam deleniti harum saepe laborum nihil enim.</p>
@@ -67,7 +76,7 @@
                 
             </div>
             <div class="variation-col">
-                <img src="images/bao.jpeg" alt="Bao board">
+                <img src="https://i.ibb.co/6sGFV0Q/bao.jpg" alt="Bao board">
                 <div class="layer">
                     <h3>BAO</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, minus! Ad reprehenderit assumenda ipsa tempora culpa distinctio mollitia laudantium aliquam sequi, earum, dolore quos modi fugit a odio delectus sint! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur dolore dolores neque vero odit debitis perspiciatis repudiandae temporibus amet laboriosam exercitationem nostrum dolor, nam deleniti harum saepe laborum nihil enim.</p>
@@ -75,6 +84,10 @@
             </div>
         </div>
     </section>
+
+    <div class="footer">
+        <p>Copyright &copy; 2022 Alyssa Harris Lab 00</p>
+    </div>
 
     
     
