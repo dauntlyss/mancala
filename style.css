@@ -94,6 +94,7 @@ nav img {
 }
 
 .hero-btn:hover {
+    color: #fff;
     border: 1px solid rgb(181, 140, 87);
     background: rgb(181, 140, 87);
     transition: 1s;
@@ -164,7 +165,6 @@ p {
 
 .variation-col {
     flex-basis: 32%;
-    background: #6b9f0340;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
@@ -203,7 +203,7 @@ p {
 }
 
 .layer p {
-    width: 100%;
+    width: 90%;
     font-weight: 300;
     color: transparent;
     font-size: 18px;
@@ -214,14 +214,50 @@ p {
     transition: 0.8s;
 }
 
+.layer .btn {
+    width: 50%;
+    font-weight: 300;
+    color: transparent;
+    font-size: 18px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 1s;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: transparent;
+
+    padding: 12px 34px;
+    font: 25px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn:hover {
+    
+    transition: 1s;
+}
+
 .layer:hover h3{
-    bottom: 79%;
+    bottom: 69%;
     opacity: 1;
 }
 
 .layer:hover p{
     color: #fff;
     bottom: 39%;
+    opacity: 1;
+}
+
+.layer:hover .btn{
+    color: #fff;
+    border: 1px solid yellowgreen;
+    background: yellowgreen;
+    bottom: 29%;
     opacity: 1;
 }
 
