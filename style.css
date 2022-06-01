@@ -368,3 +368,30 @@ p {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
+
+/* -----Responsive design------- */
+
+@media(max-width: 700px)
+{
+   .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+    }
+
+    .text-box h1 {
+        font-size: 20px;
+    }
+    .row {
+        flex-direction: column;
+
+    }
+
+    .faq {
+        margin-top: 1000px;
+    }
+
+
+}
